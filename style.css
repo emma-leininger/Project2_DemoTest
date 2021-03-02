@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+	padding: 0;
+	margin: 0;
+}
+img{
+	position: absolute;
+}
+
+.Reye{
+	left:899px;
+	top:900px;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.Reye:hover{
+	opacity: 1;
+}
+
+.Leye{
+  left: 485px;
+  top: 878px;
+}
+
+.MouthTop{
+  left: 577px;
+  top: 1309px;
+  transition: top 5s;
+}
+.MouthTop:hover{
+	top:1509px;
+}
+
+.SmileTop{
+  left: 588px;
+  top: 1320px;
+}
+.player{
+	position: absolute;
+	left:600px;
+	top:10px;
+	z-index:10;
+}
